@@ -9,7 +9,7 @@ PHPの
 2-1
 */
 ?>
-<html>
+<html> 
     <p>I say that <?php echo "Hello World!!"; ?></p>
 </html>
 <?php
