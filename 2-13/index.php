@@ -67,7 +67,7 @@ echo str_replace("t", "T", $str);
 echo '<br>';
 
 
-$str = "東　京";
+$str = "東　京";　
 echo str_replace(" ", "", $str);
 echo '<br>';
 
