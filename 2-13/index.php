@@ -4,7 +4,7 @@ $x = 2.42;
 echo ceil($x);
 echo '<br>';
 
-
+ 
 // index.php
 $x = 3.1;
 echo floor($x);
@@ -14,7 +14,7 @@ echo '<br>';
 // index.php
 $x = 3.3;
 echo round($x);
-echo '<br>';
+echo '<br>'; 
 
 
 echo pi();
@@ -55,22 +55,17 @@ echo strpos($str, "o");
 echo '<br>';
 
 
-
 $str = "tokyo";
 echo substr($str, -4, 3);
 echo '<br>';
-
-
 
 $str = "tokyo";
 echo str_replace("t", "T", $str);
 echo '<br>';
 
-
-$str = "東　京";　
+$str = "東　京";
 echo str_replace(" ", "", $str);
 echo '<br>';
-
 
 echo "1.　PostgreSQL・Oracle SQL　"."<br>";
 echo "1. PostgreSQL　:　オープンソースのリレーショナルデータベース管理システム"."<br>";
