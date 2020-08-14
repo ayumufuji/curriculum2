@@ -1,18 +1,10 @@
 <?php
-// PHPの研修カリキュラム2-1
-?>
-<?php
-/*
-PHPの
-研修
-カリキュラム
-2-1
-*/
-?>
-<html> 
-    <p>I say that <?php echo "Hello World!!"; ?></p>
-</html>
-<?php
+define("ADMIN_EMAIL", "y-i-group@gmail.com");
+define("LIST_COUNT", 15);
+echo ADMIN_EMAIL;
+echo '<br>';
+echo LIST_COUNT;
+
 echo "1. デプロイ"."<br>";
 echo "  デプロイ:　主にネットワークを通じて提供されるWebアプリケーションなどのシステム開発工程において、システムを利用可能な状態にすること  "."<br>";
 echo "2. バリデーション"."<br>";
